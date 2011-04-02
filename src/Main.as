@@ -9,7 +9,6 @@
 	import flash.system.ApplicationDomain;
 	import game.GameLogic;
 	import game.HUD;
-	import game.Input;
 	import game.PhysicsGame;
 	import game.SoundManager;
 	import screens.GameCompleteScreen;
@@ -56,7 +55,6 @@
 			APP_DOM = ApplicationDomain.currentDomain;
 			createScreens();			
 			playIntroAnimation();	
-			var input:Input = new Input(this);
 		}
 		
 		private function createScreens():void
